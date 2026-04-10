@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Prueba</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <h1 class="navbar-brand" href="index.html">Restaurante Coinco</h1>
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="servicios.html">Servicios</a>
+                <a class="nav-link" href="pedidos_online.html">Pedidos Online</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <h1>Servicios Disponibles en nuestro Local</h1>
+        <p>Agendar con anticipacion a nuestros servicios</p>
+
+
+        <h2 class="texto-servicio">°Reserva de Mesa</h2>
+        <h2 class="texto-servicio">°Centro de eventos</h2>
+        <h2 class="texto-servicio">°Barra Libre</h2>
+        <h2 class="texto-servicio">°Celebra tu Cumpleaños</h2>
+        <h2 class="texto-servicio">°Celebra tu boda</h2>
+        <img class="FOTO-SERVICIO" src="img/001-027-ayres.jpg" alt="referencia" class="img-fluid">
+
+        <form>
+
+            <div class="mb-3">
+                <label for="service">Selecciona el servicio que deseas reservar:</label>
+                <select class="form-control" id="service" name="service" required>
+                    <option value="">Seleccione</option>
+                    <option value="reserva">Reserva de Mesa</option>
+                    <option value="eventos">Centro de eventos</option>
+                    <option value="barra">Barra Libre</option>
+                    <option value="cumpleaños">Celebra tu Cumpleaños</option>
+                    <option value="boda">Celebra tu boda</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <p>Ingrese sus datos de contacto:</p>
+                <label for="text">Nombre:</label>
+                <input type="text" class="form-control" id="text" name="text" required>
+            </div>
+            <div class="mb-3">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="text">Mensaje adicional:</label>
+                <input type="text" class="form-control" id="text" name="text" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Reservar</button>
+        </form>
+
+
+    </main>
+
+    <footer class="footer-simple text-center mt-5">
+        <p>Tatiana Abarca Urra</p>
+        <a href="https://github.com/TatiDT/actividades-de-HTML" target="_blank">GitHub</a>
+    </footer>
+
+</body>
+
+</html>

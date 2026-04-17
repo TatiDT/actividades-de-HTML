@@ -41,33 +41,31 @@
         </div>
     </div>
 </nav>
+    
 
 
     <main>
 
-        <h1 class="text-center texto-inicio">Carta culinaria</h1>
-        <p class="text-center">Todos nuestros platillos incluyen ensalada</p>
+        <h1>Seccion de Contacto</h1>
 
-        <table class="table table-striped mt-3">
-            <thead class="table-dark">
-                <tr>
-                    <th>Nombre</th>
-                    <th>Descripcion</th>
-                    <th>Precio</th>
+        <form>
 
-                </tr>
-            </thead>
+            <div class="mb-3">
+                <p>Ingrese sus datos de contacto:</p>
+                <label for="text">Nombre:</label>
+                <input type="text" class="form-control" id="text" name="text" required>
+            </div>
+            <div class="mb-3">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="text">Mensaje adicional:</label>
+                <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
+            </div>
 
-            <tbody>
-                <tr>
-                    <td>LaGustine</td>
-                    <td>Arroz con pollo</td>
-                    <td>$15.000</td>
-
-                </tr>
-            </tbody>
-        </table>
-
+            <button type="submit" class="btn btn-primary">Reservar</button>
+        </form>
 
 
     </main>
